@@ -12,11 +12,18 @@ a{
     padding: 5px;
 }
 
-h1{
+h2{
     color: #828271;
     font-size: 1.2em;
 }
 
+img{
+    border: 10px solid #D2D2C1;
+}
+
+.capa{
+    border: none;
+}
 .nav{
     background: #c5c5b2;
     padding: 18px;
@@ -32,4 +39,8 @@ h1{
 
 .rodape{
     text-align: center;
+}
+
+.bold{
+    font-weight: bold;
 }
