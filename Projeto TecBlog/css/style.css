@@ -1,3 +1,6 @@
+
+/* Formatações Gerais*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,6 +10,7 @@ body{
     background: rgb(230, 230, 230);
     font-family: Roboto, 'Open Sans', sans-serif;
     font-size: 1em;
+    text-align: justify;
 }
 
 h1{
@@ -15,6 +19,17 @@ h1{
     color:rgb(70, 70, 70);
     padding: 15px 10px;
 }
+
+h2{
+    color: rgb(255, 187, 0);
+}
+
+h4{
+    color: rgb(100,100,100);
+    background: rgb(200,200,200);
+}
+
+/*Formatações do cabeçalho*/
 
 #titulo_personalizado{
     color: #FFFF;
@@ -31,43 +46,66 @@ h1{
     left: 0px;
 }
 
-a, a:link, a:visited{
-    color: #FFFF;
-    padding: 10px;
+a{
     text-decoration: none;
 }
 
-a:hover{
+.cabecalho a:link, a:visited{
+    color: #FFFF;
+    padding: 10px;
+}
+
+.cabecalho a:hover{
     color: rgb(255, 187, 0);
     background: #FFFF;
+    text-decoration: none;
 }
 
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+/*Formatação do conteúdo principal*/
+
+.conteudo_lateral, .postagem{
+    background: #FFFF;
+}
 
 .conteudo{
-    width: 680px;
-    position: relative;
-    left: 500px;
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
 }
 
-.postagem{
-    background: #FFFF;
-    padding: 15px;
-    margin: 15px 0px;
+.area_postagem{
     float: left;
 }
 
-.titulo_postagem{
-    color: rgb(255, 187, 0);
+.postagem{
+    width: 635px;
+    padding: 15px;
+    margin-bottom: 30px;
 }
-
+.data-postagem{
+    display: block;
+    font-size: 0.8em;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
 .conteudo_lateral{
-    background: #FFFF;
-    width: 240px;
+    width: 220px;
     height: 220px;
     float: right;
+    padding: 15px;
 }
 
-.clear{
-    clear: left;
-    clear: right;
+.rodape{
+    clear: both;
+    text-align: center;
+    background: #CCC;
+    padding: 15px;
 }
