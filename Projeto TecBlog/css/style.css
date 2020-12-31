@@ -28,7 +28,10 @@ h4{
     color: rgb(100,100,100);
     background: rgb(200,200,200);
     padding: 5px;
-    margin: 10px;
+}
+
+p{
+    border-top: 1px solid #c4c4c4;
 }
 
 /*Formatações do cabeçalho*/
@@ -72,8 +75,10 @@ a:hover{
 }
 /*Formatação do conteúdo principal*/
 
-.conteudo_lateral, .postagem{
+.area_lateral, .postagem{
     background: #FFFF;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 .conteudo{
@@ -102,13 +107,20 @@ a:hover{
     width: 240px;
     height: 220px;
     float: right;
-    text-align: justify;
 }
 
 .postagem_lateral{
-    margin-bottom: 10px;
-    padding: 0px 15px;
+    padding: 10px;
     font-size: 0.7em;
+    text-align: justify;
+}
+
+.texto_lateral{
+    border-top: none;
+}
+
+.menu_lateral{
+    padding: 10px;
 }
 .rodape{
     clear: both;
