@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x left top;
+}
+
+.container{
+    width: 750px ;
+    margin: 0 auto;
+}
+.cabecalho{
+    border: 1px solid red;
+    height: 180px;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.nav{
+    list-style: none;
+    background-color: mediumvioletred;
+    display: inline;
+    padding: 5px;
+}
+
+.nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: url(../img/divisor.png) no-repeat top right;
+}
