@@ -1,3 +1,4 @@
+/*Definições da página*/
 
 *{
     margin: 0;
@@ -10,26 +11,111 @@ body{
 }
 
 .container{
-    width: 750px ;
+    width: 750px;
     margin: 0 auto;
 }
+
+/*Estilo do topo da página*/
 .cabecalho{
-    border: 1px solid red;
-    height: 180px;
+    height: 150px;
     background: url(../img/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
 }
 
-.nav{
-    list-style: none;
-    background-color: mediumvioletred;
-    display: inline;
+h4{
+    color:#fff;
+    padding: 5px;
+    background: rgb(44, 61, 218);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.limpar-fluxo{
+    clear: both;
+}
+
+/*Estilo do menu de navegação principal*/
+.nav-principal ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+
+}
+.nav-principal ul li{
+    float: left;
+}
+
+.nav-principal ul a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    background: url(../img/divisor.png) no-repeat left;
+}
+
+.nav-principal ul a:hover{
+    color: #770022;
+}
+
+.home .nav-principal a#home {
+    background: #eb0445;
+}
+
+#divisor-none a{
+    background: none;
+}
+
+
+
+
+/*Área de conteudo principal*/
+
+.container-principal{
+    margin-top: 10%;
+}
+
+/*Entrevistas*/
+.area-lateral{
+    width: 25%;
+}
+
+.caixa{
+    background-image: url(../img/fundo-caixa.png) ;
     padding: 5px;
 }
 
-.nav a{
-    display: inline-block;
-    color: #fff;
+.entrevistas ul{
+    margin-top: 5px;
+}
+
+.entrevistas ul li{
+    padding: 0.5em;
+    border-bottom:0.9px solid rgb(0,0,0,0.05);
+    background: #ffffff;
+}
+.entrevistas ul a{
+    color: black;
+    font-size: 0.9em;
     text-decoration: none;
-    background: url(../img/divisor.png) no-repeat top right;
+}
+
+/*News*/
+.news{
+    margin-top: 10px;
+}
+
+.news form{
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.news input #email{
+    height: 15px;
 }
