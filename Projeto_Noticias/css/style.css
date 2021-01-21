@@ -25,13 +25,17 @@ body{
 h4{
     color:#fff;
     padding: 5px;
-    background: rgb(44, 61, 218);
+    background: #294c71;
 }
 
 ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.limpar-fluxo{
+    clear: both;
 }
 
 
@@ -93,6 +97,7 @@ body.fotos .nav-principal a#fotos {
     margin-bottom: 10px;
 }
 
+/*Conteudo Superior*/
 .conteudo{
     padding: 5px;
     background: #ffffff;
@@ -112,10 +117,56 @@ body.fotos .nav-principal a#fotos {
 
 .conteudo a{
     color: #b10333;
+    cursor: pointer;
 }
 
 .entrevistas h5{
     color: black;
+}
+
+/*Conteudo Inferior*/
+
+.tecnologia ul a img, .noticias ul a img{
+    width: 35%;
+    float: left;
+    margin: 5px;
+}
+
+.tecnologia ul a, .noticias ul a{
+    float: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.tecnologia ul a:hover, .noticias ul a:hover{
+    background-color: #d6d6d6;
+}
+
+.tecnologia li, .noticias li{
+    float: left;
+    height: 65px;
+}
+
+.tecnologia ul a div, .noticias ul a div{
+    width: 60%;
+    margin: 5px 0;
+    float: left;
+}
+
+.tecnologia h5, .noticias h5{
+    color: #3978bd;
+    text-transform: uppercase;
+    text-indent: 5px;
+}
+
+.tecnologia p, .noticias p{
+    font-size: 0.7em;
+    color: black;
+}
+
+.tecnologia ul li, .noticias ul li{
+    padding: 5px;
+    border-bottom:0.9px solid rgb(0,0,0,0.05);
+    background: #ffffff;
 }
 
 /*Entrevistas*/
@@ -129,7 +180,7 @@ body.fotos .nav-principal a#fotos {
     padding: 5px;
 }
 
-.entrevistas ul, .conteudo{
+.entrevistas ul, .conteudo, .tecnologia, .noticias{
     margin-top: 5px;
 }
 
@@ -144,9 +195,19 @@ body.fotos .nav-principal a#fotos {
     text-decoration: none;
 }
 
+.entrevistas ul a:hover{
+    padding-left: 20px;
+    background: url(../img/marcador.png) no-repeat left ;
+    color: silver;
+}
+
 /*News*/
 .news{
     margin-top: 10px;
+}
+
+label{
+    cursor: pointer;
 }
 
 .news form{
@@ -175,7 +236,7 @@ body.fotos .nav-principal a#fotos {
 .rodape{
     height: 60px;
     margin-top: 20px;
-    background: rgb(44, 61, 218);
+    background: #294c71;
     color: #ffffff;
     font-size: 1em;
     line-height: 4em;
