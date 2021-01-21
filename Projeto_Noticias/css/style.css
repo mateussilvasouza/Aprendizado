@@ -1,0 +1,183 @@
+/*Definições da página*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x left top;
+}
+
+.container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+/*Estilo do topo da página*/
+.cabecalho{
+    height: 150px;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+h4{
+    color:#fff;
+    padding: 5px;
+    background: rgb(44, 61, 218);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/*Estilo do menu de navegação principal*/
+.nav-principal ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+
+}
+.nav-principal ul li{
+    float: left;
+}
+
+.nav-principal ul a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    background: url(../img/divisor.png) no-repeat left;
+}
+
+.nav-principal ul a:hover{
+    color: #770022;
+}
+
+body.home .nav-principal a#home,
+body.brasil .nav-principal a#brasil,
+body.internacional .nav-principal a#internacional,
+body.economia .nav-principal a#economia,
+body.saude .nav-principal a#saude,
+body.ciencia .nav-principal a#ciencia,
+body.fotos .nav-principal a#fotos {
+    color: #ffffff;
+    background: #eb0445;
+    cursor: text;
+}
+
+#divisor-none a{
+    background: none;
+}
+
+/*Área de conteudo principal*/
+.container-principal{
+    margin-top: 10%;
+}
+
+.area-central{
+    float: left;
+    width: 75%;
+}
+
+.area-central .caixa{
+    float: left;
+    width: 45%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.conteudo{
+    padding: 5px;
+    background: #ffffff;
+}
+
+.conteudo h5{
+    padding: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #b10333;
+    display: inline-block;
+}
+.conteudo img{
+    width: 98%;
+    border: 3px solid silver;
+}
+
+.conteudo a{
+    color: #b10333;
+}
+
+.entrevistas h5{
+    color: black;
+}
+
+/*Entrevistas*/
+.area-lateral{
+    width: 24%;
+    float: left;
+}
+
+.caixa{
+    background-image: url(../img/fundo-caixa.png) ;
+    padding: 5px;
+}
+
+.entrevistas ul, .conteudo{
+    margin-top: 5px;
+}
+
+.entrevistas ul li{
+    padding: 0.5em;
+    border-bottom:0.9px solid rgb(0,0,0,0.05);
+    background: #ffffff;
+}
+.entrevistas ul a{
+    color: black;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+/*News*/
+.news{
+    margin-top: 10px;
+}
+
+.news form{
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.news input#email{
+    height: 30px;
+    width: 85%;
+    border: 2px inset gray;
+}
+
+.news input[type="submit"]{
+    height: 30px;
+    padding: 5px;
+    font-size: 0.9em;
+    line-height: 1em;
+    color: #ffffff;
+    background: #b10333;
+    border: 2px solid #770022;
+}
+
+/*Rodapé da página*/
+.rodape{
+    height: 60px;
+    margin-top: 20px;
+    background: rgb(44, 61, 218);
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 4em;
+    clear: both;
+}
