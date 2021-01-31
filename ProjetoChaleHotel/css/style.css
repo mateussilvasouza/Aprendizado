@@ -1,0 +1,49 @@
+/*Formatação de Página*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../img/bg.png);
+    margin: 15px;
+}
+
+.container{
+    width: 1020px;
+    margin: 0 auto;
+    background: url(../img/bg-linha.gif);
+    border: 1px solid red;
+}
+
+.topo{
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+    border: 1px solid red;
+}
+
+.area-logo{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background: red;
+    top: 0;
+    left: 0;
+}
+/*.area-logo a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}*/
+
+.area-menu{
+    position: absolute;
+    background: blue;
+    width: 450px;
+    height: 250px;
+    top: 0;
+    right: 0;
+}
