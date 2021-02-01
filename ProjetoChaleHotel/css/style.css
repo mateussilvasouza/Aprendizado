@@ -12,13 +12,14 @@ body{
 }
 
 .container{
-    width: 1200px;
+    max-width: 1180px;
+    min-width: 740px;
     margin: 0 auto;
     background: url(../img/bg-linha.gif);
 
 }
 
-/*Topo da Página*/
+/**Topo da Página**/
 ul{
     padding: 0;
     margin: 0;
@@ -42,6 +43,7 @@ ul{
 }
 .area-logo a img{
     padding: 15px;
+    z-index: 3;
 }
 
 .area-menu{
@@ -51,13 +53,17 @@ ul{
     height: 250px;
     top: 0;
     right: 0;
+    z-index: 1;
+}
+
+.conteudo-menu{
+    margin: 15px 15px 0 90px;
 }
 
 .reserva {
     display: inline-block;
     font-size: 0.7em;
     line-height: 3em;
-    margin: 15px 15px 15px 100px;
     border-top: 1px solid rgb(103, 109, 52);
     border-bottom: 1px solid rgb(103, 109, 52);
 }
@@ -80,7 +86,6 @@ ul{
 }
 
 .menu{
-    margin: 0px 15px 40px 100px;
     background: url(../img/depoimento.png) no-repeat top right;
     height: 200px;
 }
@@ -93,6 +98,7 @@ ul{
     padding: 5px;
 }
 
+/**Fim do Topo**/
 /*Conteudo*/
 h1{
     font-size: 1.2em;
