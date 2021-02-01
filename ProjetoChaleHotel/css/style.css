@@ -12,38 +12,115 @@ body{
 }
 
 .container{
-    width: 1020px;
+    width: 1200px;
     margin: 0 auto;
     background: url(../img/bg-linha.gif);
-    border: 1px solid red;
+
+}
+
+/*Topo da Página*/
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
 .topo{
+    position: relative;
     background: #dbcd87;
     height: 15.4em;
     min-height: 250px;
-    border: 1px solid red;
 }
 
 .area-logo{
     position: absolute;
     width: 100%;
     height: 250px;
-    background: red;
+    background: url(../img/topo-imagem-principal.png) no-repeat left top;
     top: 0;
     left: 0;
 }
-/*.area-logo a img{
-    position: absolute;
-    top: 0;
-    left: 0;
-}*/
+.area-logo a img{
+    padding: 15px;
+}
 
 .area-menu{
     position: absolute;
-    background: blue;
-    width: 450px;
+    background: url(../img/topo-imagem-lateral.png);
+    width: 480px;
     height: 250px;
     top: 0;
     right: 0;
+}
+
+.reserva {
+    display: inline-block;
+    font-size: 0.7em;
+    line-height: 3em;
+    margin: 15px 15px 15px 100px;
+    border-top: 1px solid rgb(103, 109, 52);
+    border-bottom: 1px solid rgb(103, 109, 52);
+}
+
+.reserva input{
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    border: none;
+    background: rgb(168, 179, 76);
+    padding: 5px 15px 5px 15px;
+    margin-left: 40px;
+}
+.reserva ul{
+    display: inline-block;
+}
+.reserva ul li{
+    display: inline-block;
+    color: rgb(103, 109, 52);
+}
+
+.menu{
+    margin: 0px 15px 40px 100px;
+    background: url(../img/depoimento.png) no-repeat top right;
+    height: 200px;
+}
+
+.menu ul a{
+    display: block;
+    color: rgb(103, 109, 52);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+/*Conteudo*/
+h1{
+    font-size: 1.2em;
+    color: rgb(103, 109, 52);
+    padding: 5px 0;
+}
+.area-principal{
+    background: url(../img/bg-container.png) repeat-y center;
+}
+
+.conteudo-principal{
+    float: left;
+    width: 45%;
+    padding: 15px 30px;
+    background: url(../img/bg-area-principal.png) repeat-x left top;
+    text-align: justify;
+}
+
+.conteudo-lateral{
+    float: right;
+    width: 45%;
+    padding: 15px 30px;
+    background: url(../img/bg-area-lateral.png) repeat-x left top;
+}
+
+.rodape{
+    color: rgb(103, 109, 52);
+    line-height: 3em;
+    text-indent: 20px;
+    background: #fff url(../img/bg-rodape.png) repeat-x left top;
 }
