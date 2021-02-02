@@ -62,27 +62,32 @@ ul{
 
 .reserva {
     display: inline-block;
+    color: #8b8448;
     font-size: 0.7em;
-    line-height: 3em;
-    border-top: 1px solid rgb(103, 109, 52);
-    border-bottom: 1px solid rgb(103, 109, 52);
+    line-height: 2em;
+    padding: 5px 0;
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+
 }
 
 .reserva input{
-    color: #fff;
+    color: #b5ab56;
     font-size: 1em;
     text-transform: uppercase;
-    border: none;
-    background: rgb(168, 179, 76);
-    padding: 5px 15px 5px 15px;
+    padding: 5px 10px;
     margin-left: 40px;
+    border: none;
+    background: #a29750;
+    cursor: pointer;
+    float: right;
 }
 .reserva ul{
     display: inline-block;
+    float: left;
 }
 .reserva ul li{
     display: inline-block;
-    color: rgb(103, 109, 52);
 }
 
 .menu{
@@ -92,7 +97,7 @@ ul{
 
 .menu ul a{
     display: block;
-    color: rgb(103, 109, 52);
+    color: #b5ab56;
     text-decoration: none;
     text-transform: uppercase;
     padding: 5px;
