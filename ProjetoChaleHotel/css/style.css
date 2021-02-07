@@ -91,12 +91,15 @@ ul{
     
 }
 
+a{
+    text-decoration: none;
+}
+
 .menu ul a{
     display: inline-block;
     color: #6e672c;
     font-size: .8em;
     line-height: 1.5em;
-    text-decoration: none;
     text-transform: uppercase;
     padding: 5px;
 }
@@ -114,6 +117,13 @@ h1{
     padding: 5px 0;
 }
 
+h2{
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../img/ornamento.png) no-repeat center right;
+}
+
 p{
     font-size: 1em;
     margin-bottom: 10px;
@@ -122,18 +132,48 @@ p{
     background: url(../img/bg-container.png) repeat-y top center;
 }
 
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
 .conteudo-principal{
-    width: 45%;
-    padding: 1.4em;
+    width: 50%;
+    padding: 15px 0;
     background: url(../img/bg-area-principal.png) top left repeat-x;
     float: left;
 }
 
 .conteudo-lateral{
-    width: 45%;
-    padding: 1.4em;
+    width: 50%;
+    padding: 20px 0;
     background: url(../img/bg-area-lateral.png) top left repeat-x;
     float: right;
+}
+
+.conteudo-lateral p{
+    font-size: 0.8em;
+    color: black;
+}
+
+.conteudo-lateral li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+.conteudo-lateral li a{
+    display: block;
+}
+
+.conteudo-lateral li a img{
+    width: 150px;
+    margin-right: 8px;
+    float: left;
+}
+
+.conteudo-lateral ul li:hover{
+    background: #f3efcb;
+    cursor: pointer;
 }
 
 .rodape{
