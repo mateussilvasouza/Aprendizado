@@ -1,3 +1,5 @@
+
+/* ESTILIZAÇÃO GERAL */
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +16,7 @@ ul{
     text-decoration: none;
 }
 
+/* DEFINIÇÕES GERAIS DO CONTAINER */
 .container{
     width: 1080px;
     margin: 0 auto;
@@ -28,8 +31,7 @@ a:hover{
     color: #227115;
 }
 
-
-
+/* CABEÇALHO DA PÁGINA */
 header{
     padding: 15px 0;
     height: 55px;
@@ -41,6 +43,7 @@ header{
     float: left;
 }
 
+/* NAVEGAÇÃO */
 .navegacao ul{
     margin: 20px;
     float: right;
@@ -61,21 +64,26 @@ header{
     border-bottom: 1px solid #535858;
 }
 
+
+/* CONTEUDO PRINCIPAL */
 .conteudo_principal{
     width: 710px;
     background: #227115;
     float: left;
 }
 
+
+/* CONTEUDO LATERAL */
 aside{
     width: 350px;
     background: #ebe7dd;
     float: right;
 }
 
+/* Conteúdo lateral de visitas */
 section.visita{
     margin-top: 10px;
-    padding: 17px 27px 27px 27px;
+    padding: 27px 27px 27px 27px;
     background: #cdc8b1;
 }
 
@@ -116,6 +124,7 @@ h4{
     border: 1px solid #9b9271;
 }
 
+/* Conteúdo lateral galeria */
 section.galeria{
     padding: 20px;
 }
